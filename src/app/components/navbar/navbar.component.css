@@ -1,0 +1,7 @@
+@import url('https://fonts.cdnfonts.com/css/hvdtrial-brandon-grotesque');
+
+* {
+    font-family: 'HVDTrial Brandon Grotesque', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
