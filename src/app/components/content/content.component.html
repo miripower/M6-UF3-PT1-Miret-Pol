@@ -1,44 +1,9 @@
-<div class="max-w-[80%] flex flex-col m-auto mt-12 gap-10 mb-20">
+<div class="max-w-[80%] flex flex-col gap-10 m-auto mt-12 mb-10">
     
-    <div class="border-2 border-gray-500">
-        <img src="/images/content1.png" alt="">
-    </div>
+    @for (image of images; track image) {
+        <div class="border-2 border-gray-500">
+            <img [src]="image.src" [alt]="image.alt" class="w-full">
+        </div>
+    }
 
-    <div class="flex gap-2">
-        <div class="max-w-[28%] flex flex-col gap-1">
-            <div>
-                <img src="/images/careers1.jpg" alt="" class="object-cover w-full">
-            </div>
-            <div>
-                <img src="/images/careers2.jpg" alt="" class="object-cover w-full">
-            </div>
-        </div>
-        <div class="flex flex-col gap-10 justify-center pl-16 pr-96" id="careers">
-            <h2 class="text-white text-5xl font-bold">Careers at Pixar</h2>
-            <p class="text-white text-md pb-10">At Pixar, we are proud of our tradition of creative and technical excellence and are always looking for 
-                talented people to enrich our work and our community. <a href="#" class="underline underline-offset-4">Learn more</a></p>
-        </div>
-    </div>
-
-    <div id="elio" class="flex">
-        <div class="w-[48%] relative">
-            <img src="/images/elio.png" alt="" class="z-10 mt-[-22%]">
-        </div> 
-        <div class="flex flex-col items-center justify-center w-[52%]">
-            <img src="/images/elioletras.png" alt="" class="max-w-[60%]">
-            <p class="text-white font-bold" id="intheatre">IN THEATRES JUNE 13</p>
-        </div>
-    </div>
-
-    <div class="flex gap-2">
-        <div>
-            <img src="/images/canal1.png" alt="">
-        </div>
-        <div>
-            <img src="/images/canal2.png" alt="">
-        </div>
-        <div>
-            <img src="/images/canal3.png" alt="">
-        </div>
-    </div>
 </div>

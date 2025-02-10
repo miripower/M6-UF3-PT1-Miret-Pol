@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './content.component.css'
 })
 export class ContentComponent {
-
+images = [
+  {src: '/images/content1.png', alt: 'Win or Lose'},
+]
 }
