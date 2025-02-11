@@ -3,22 +3,3 @@
 * {
     font-family: "Montserrat", serif;
 }
-
-#careers {
-    background-image: url('/images/careers3.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#elio {
-    background-image: url('/images/bgelio.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#intheatre {
-    font-size: 14px;
-    letter-spacing: 3px;
-}
